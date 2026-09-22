@@ -18,7 +18,7 @@ export function Breadcrumb({ path, onNavigateFolder }: BreadcrumbProps) {
             ) : (
               <button
                 onClick={() => onNavigateFolder(item.id)}
-                className="hover:text-blue-600 hover:underline"
+                className="hover:text-neutral-900"
               >
                 {item.name}
               </button>
